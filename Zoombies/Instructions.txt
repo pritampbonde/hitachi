@@ -1,0 +1,25 @@
+Assessment Project description
+
+This project consists of a check board “hunting” simulation. Humans, represented by squares of a given color, are hunted by zombies, represented by squares of another color. When a zombie captures a human, the human turns into a zombie and starts behaving as such, hunting other humans. The game rules are as follows:
+
+· Zombies hunt humands and humans evade from zombies.
+· Each element, human or zombie, is controlled by its own thread, and each thread controls only one element.
+· The check-board size, the initial number of humans and zombies and their starting position should be configurable.
+· Two elements cannot occupy the same position at the same time.
+· A zombie “captures” a human when it gets to any of the 8 positions surrounding the human.
+· All elements, humans and zombies, have access to the full state of the check-board. In other words, they are able to locate their “enemies” and are expected to use this information to define their steps.
+
+The base code brings an implementation example of how to perform the movimentation around the board.
+
+The purpose of this task is to evaluate the developer's ability to deal with multiple conflicting threads sharing some state. Developers are expected to:
+
+· Work individually, as the purpose of this project is to assess their personal skillsets.
+· Provide the code developed as a stand-alone Eclipse Java Project, as well as the required documentation on how to execute it.
+· Generate a brief description on the general design chosen.
+
+Developers are NOT expected to:
+
+· Work as a team
+· Provide code documentation, such as JavaDoc content.
+
+Developers are also encouraged to return their results as soon as they judge them to be presentable. Furthermore, even if the task is not completed within the time provided, results will be analyzed and judged. Returning SOMETHING on time is definitely more important than returning a completed task late.
